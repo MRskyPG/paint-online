@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Paint Online</title>
+</head>
+<body>
+    <div class="container">
+        <div class="toolbar">
+            <h2>Опции</h2>
+            <div class="colorBlock">
+                <label for="color">Color</label>
+                <input id="color" type="color">
+            </div>
+
+            <div class="lineWidthBlock">
+                <label for="lineWidth"></label>
+                <input id="lineWidth" type="number">
+            </div>
+            <button id="clearButton">Clear</button>
+            <h3>Пользователи: <span id="userCount">0</span></h3>
+        </div>
+
+        <div class="canvasBlock">
+            <canvas id="canvas">
+
+            </canvas>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

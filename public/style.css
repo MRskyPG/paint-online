@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202020;
+    color: white;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#clearButton {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#canvas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1900px;
+    height: 800px;
+    background-color: white;
+}
+
+#color {
+    border: none;
+    border-radius: 5px;
+}
+
+.colorBlock label {
+    font-size: 25px;
+}
+
+.lineWidthBlock input{
+    font-size: 15px;
+}
