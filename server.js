@@ -8,8 +8,8 @@ const io = new socketio.Server(httpserver);
 
 app.use(express.static(__dirname + '/public'));
 
-const PORT = 8080;
-httpserver.listen(PORT, '10.241.109.20', (error) => {
+const PORT = 80;
+httpserver.listen(PORT, 'localhost', (error) => {
     error ? console.log(error) : console.log(`Listening port ${PORT}`);
 });
 
